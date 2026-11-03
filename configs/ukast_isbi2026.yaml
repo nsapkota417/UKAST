@@ -1,0 +1,26 @@
+model:
+  in_channels: 3
+  out_channels: 2
+  spatial_dims: 2
+  patch_size: 2
+  depths: [2, 2, 2, 2]
+  num_heads: [3, 6, 12, 24]
+  window_size: 7
+  feature_size: 24
+  mlp_ratio: 4.0
+  norm_name: instance
+  group_size: 4
+  rational_init: swish
+  # SwinUNETR-v2 is mandatory in UKAST and is enabled internally.
+
+training:
+  epochs: 400
+  batch_size: 24
+  optimizer: AdamW
+  learning_rate: 0.0005
+  weight_decay: 0.001
+  scheduler: cosine_annealing
+  loss: DiceCELoss
+  crop_size: [320, 320]
+  augmentations: [horizontal_flip, vertical_flip, rotate_90, gaussian_noise]
+  inference_overlap: 0.5
