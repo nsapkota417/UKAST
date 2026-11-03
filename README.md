@@ -4,13 +4,14 @@
 
 ### When Swin Transformer Meets KANs: An Improved Transformer Architecture for Medical Image Segmentation
 
-<a href="https://arxiv.org/pdf/2511.04084"><img src="https://img.shields.io/badge/Paper-arXiv-B31B1B?logo=arxiv&logoColor=white" alt="Paper"></a>
+<a href="https://ieeexplore.ieee.org/document/11515647"><img src="https://img.shields.io/badge/Official%20paper-IEEE%20Xplore-00629B?logo=ieee&logoColor=white" alt="Official paper on IEEE Xplore"></a>
+<a href="https://arxiv.org/abs/2511.04084"><img src="https://img.shields.io/badge/Preprint-arXiv-B31B1B?logo=arxiv&logoColor=white" alt="arXiv preprint"></a>
 <img src="https://img.shields.io/badge/Published%20at-IEEE%20ISBI%202026-00629B?logo=ieee&logoColor=white" alt="Published at IEEE ISBI 2026">
 <img src="https://img.shields.io/badge/Medical%20image-segmentation-7A2E9D" alt="Medical image segmentation">
 
 **Nishchal Sapkota, Haoyan Shi, Yejia Zhang, Xianshi Ma, Bofang Zheng, Fabian Vazquez, Pengfei Gu, and Danny Z. Chen**
 
-[Paper](https://arxiv.org/pdf/2511.04084) · [Architecture](#architecture) · [Installation](#installation) · [Results](#results)
+[IEEE Xplore](https://ieeexplore.ieee.org/document/11515647) · [arXiv](https://arxiv.org/abs/2511.04084) · [Architecture](#architecture) · [Installation](#installation) · [Results](#results)
 
 </div>
 
@@ -113,6 +114,8 @@ MONAI SwinUNETR's divisibility constraint: 32 pixels per spatial dimension for
 ## Citation
 
 If UKAST is useful in your research, please cite our ISBI 2026 paper:
+
+[Official IEEE Xplore version](https://ieeexplore.ieee.org/document/11515647) · [Open-access arXiv preprint](https://arxiv.org/abs/2511.04084)
 
 ```bibtex
 @inproceedings{sapkota2026ukast,
