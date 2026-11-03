@@ -60,6 +60,12 @@ In the data-scarce setting, UKAST improves BCV Dice from **60.1% to 63.9%**
 with only 10% of the training data, and ISIC Dice from **69.8% to 71.4%** at
 the same fraction.
 
+<p align="center">
+  <img src="assets/data-efficacy.svg" alt="Data efficacy curves showing UKAST outperforming SwinUNETR with residual convolutions from 10 to 100 percent of training data on ISIC 2017 and BCV 2016." width="92%">
+</p>
+
+The plot reproduces the ISIC 2017 and BCV 2016 results in Table 2.
+
 | Complexity | SwinUNETR + RC | UKAST |
 |:--|--:|--:|
 | Parameters | 7.183M | 7.184M |

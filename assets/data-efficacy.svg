@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+  <title id="title">UKAST data efficacy</title>
+  <desc id="desc">UKAST has a higher Dice score than SwinUNETR with residual convolutions from 10 to 100 percent of training data on ISIC 2017 and BCV 2016.</desc>
+  <rect width="1200" height="540" fill="#ffffff"/>
+  <style>
+    .title{font:700 22px Arial,sans-serif;fill:#0f172a}.panel{font:700 16px Arial,sans-serif;fill:#0f172a}.axis{font:13px Arial,sans-serif;fill:#475569}.gain{font:700 12px Arial,sans-serif;fill:#b00072}.legend{font:14px Arial,sans-serif;fill:#334155}.grid{stroke:#e2e8f0;stroke-width:1}.tick{stroke:#94a3b8;stroke-width:1.25}.base{fill:none;stroke:#64748b;stroke-width:3}.ours{fill:none;stroke:#d9008d;stroke-width:3.5}.marker-base{fill:#64748b;stroke:#fff;stroke-width:2}.marker-ours{fill:#d9008d;stroke:#fff;stroke-width:2}.shade{fill:#fce7f3}
+  </style>
+  <text x="600" y="34" text-anchor="middle" class="title">UKAST maintains an advantage as annotation availability decreases</text>
+  <line x1="430" y1="62" x2="462" y2="62" class="base"/><circle cx="446" cy="62" r="5" class="marker-base"/><text x="470" y="67" class="legend">SwinUNETR + RC</text>
+  <line x1="670" y1="62" x2="702" y2="62" class="ours"/><circle cx="686" cy="62" r="5" class="marker-ours"/><text x="710" y="67" class="legend">UKAST</text>
+  <text x="295" y="104" text-anchor="middle" class="panel">ISIC 2017 (2D dermoscopy)</text>
+  <text x="905" y="104" text-anchor="middle" class="panel">BCV 2016 (CT, slice-wise)</text>
+  <g class="grid"><line x1="90" y1="140" x2="500" y2="140"/><line x1="90" y1="207" x2="500" y2="207"/><line x1="90" y1="274" x2="500" y2="274"/><line x1="90" y1="341" x2="500" y2="341"/><line x1="700" y1="140" x2="1110" y2="140"/><line x1="700" y1="207" x2="1110" y2="207"/><line x1="700" y1="274" x2="1110" y2="274"/><line x1="700" y1="341" x2="1110" y2="341"/></g>
+  <g class="axis"><text x="78" y="345" text-anchor="end">68</text><text x="78" y="278" text-anchor="end">72</text><text x="78" y="211" text-anchor="end">76</text><text x="78" y="144" text-anchor="end">80</text><text x="688" y="345" text-anchor="end">59</text><text x="688" y="278" text-anchor="end">63</text><text x="688" y="211" text-anchor="end">67</text><text x="688" y="144" text-anchor="end">71</text><text x="30" y="250" transform="rotate(-90 30 250)">Dice score (%)</text></g>
+  <g class="tick"><line x1="90" y1="140" x2="90" y2="365"/><line x1="90" y1="365" x2="500" y2="365"/><line x1="700" y1="140" x2="700" y2="365"/><line x1="700" y1="365" x2="1110" y2="365"/></g>
+  <path d="M120 311 L240 277 L360 236 L480 159 L480 142 L360 215 L240 272 L120 284 Z" class="shade"/>
+  <polyline points="120,311 240,277 360,236 480,159" class="base"/><polyline points="120,284 240,272 360,215 480,142" class="ours"/>
+  <g><circle cx="120" cy="311" r="6" class="marker-base"/><circle cx="240" cy="277" r="6" class="marker-base"/><circle cx="360" cy="236" r="6" class="marker-base"/><circle cx="480" cy="159" r="6" class="marker-base"/><circle cx="120" cy="284" r="6" class="marker-ours"/><circle cx="240" cy="272" r="6" class="marker-ours"/><circle cx="360" cy="215" r="6" class="marker-ours"/><circle cx="480" cy="142" r="6" class="marker-ours"/></g>
+  <g class="gain"><text x="120" y="270" text-anchor="middle">+1.6</text><text x="240" y="258" text-anchor="middle">+0.3</text><text x="360" y="201" text-anchor="middle">+1.2</text><text x="480" y="128" text-anchor="middle">+1.0</text></g>
+  <path d="M730 323 L850 279 L970 272 L1090 175 L1090 137 L970 204 L850 247 L730 259 Z" class="shade"/>
+  <polyline points="730,323 850,279 970,272 1090,175" class="base"/><polyline points="730,259 850,247 970,204 1090,137" class="ours"/>
+  <g><circle cx="730" cy="323" r="6" class="marker-base"/><circle cx="850" cy="279" r="6" class="marker-base"/><circle cx="970" cy="272" r="6" class="marker-base"/><circle cx="1090" cy="175" r="6" class="marker-base"/><circle cx="730" cy="259" r="6" class="marker-ours"/><circle cx="850" cy="247" r="6" class="marker-ours"/><circle cx="970" cy="204" r="6" class="marker-ours"/><circle cx="1090" cy="137" r="6" class="marker-ours"/></g>
+  <g class="gain"><text x="730" y="245" text-anchor="middle">+3.8</text><text x="850" y="233" text-anchor="middle">+1.9</text><text x="970" y="190" text-anchor="middle">+4.1</text><text x="1090" y="123" text-anchor="middle">+2.3</text></g>
+  <g class="axis"><text x="120" y="391" text-anchor="middle">10%</text><text x="240" y="391" text-anchor="middle">25%</text><text x="360" y="391" text-anchor="middle">50%</text><text x="480" y="391" text-anchor="middle">100%</text><text x="730" y="391" text-anchor="middle">10%</text><text x="850" y="391" text-anchor="middle">25%</text><text x="970" y="391" text-anchor="middle">50%</text><text x="1090" y="391" text-anchor="middle">100%</text><text x="295" y="426" text-anchor="middle">Training data used</text><text x="905" y="426" text-anchor="middle">Training data used</text></g>
+  <line x1="90" y1="466" x2="1110" y2="466" stroke="#e2e8f0"/><text x="600" y="496" text-anchor="middle" class="axis">Values from UKAST ISBI 2026, Table 2. Shaded area denotes the improvement over SwinUNETR + RC.</text>
+</svg>
