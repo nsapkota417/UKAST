@@ -107,8 +107,6 @@ MONAI SwinUNETR's divisibility constraint: 32 pixels per spatial dimension for
 ## Reproducibility notes
 
 - Experiments use 2D slices for the BCV and MMWHS volume datasets.
-- The public code intentionally excludes register-token experiments,
-  experimental architectures, data, checkpoints, and cluster scripts.
 - The KAT Triton kernel is fixed to a fifth-degree numerator and fourth-degree
   denominator, so this release supports rational order `(5, 4)` only.
 
