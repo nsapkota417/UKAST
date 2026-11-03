@@ -110,6 +110,22 @@ MONAI SwinUNETR's divisibility constraint: 32 pixels per spatial dimension for
 - The KAT Triton kernel is fixed to a fifth-degree numerator and fourth-degree
   denominator, so this release supports rational order `(5, 4)` only.
 
+## Citation
+
+If UKAST is useful in your research, please cite our ISBI 2026 paper:
+
+```bibtex
+@inproceedings{sapkota2026ukast,
+  title     = {When Swin Transformer Meets KANs: An Improved Transformer Architecture for Medical Image Segmentation},
+  author    = {Sapkota, Nishchal and Shi, Haoyan and Zhang, Yejia and Ma, Xianshi and Zheng, Bofang and Vazquez, Fabian and Gu, Pengfei and Chen, Danny Z.},
+  booktitle = {2026 IEEE 23rd International Symposium on Biomedical Imaging (ISBI)},
+  pages     = {1--5},
+  year      = {2026},
+  publisher = {IEEE},
+  doi       = {10.1109/ISBI61048.2026.11515647}
+}
+```
+
 ## Acknowledgments
 
 UKAST builds on [MONAI SwinUNETR](https://github.com/Project-MONAI/MONAI)
